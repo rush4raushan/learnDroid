@@ -4,6 +4,7 @@
     android:layout_height="match_parent" >
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -11,5 +12,32 @@
         android:padding="@dimen/padding_medium"
         android:text="@string/hello_world"
         tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_marginBottom="64dp"
+        android:layout_marginRight="29dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:text="Raushan" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_marginBottom="29dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:text="say's" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="Welcome to" />
 
 </RelativeLayout>
